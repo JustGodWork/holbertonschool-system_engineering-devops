@@ -24,6 +24,6 @@ The server communicates with the user's computer using the HTTP (Hypertext Trans
 
 ## 8 - What are the issues with this infrastructure?
 
-- SPOF (Single Point of Failure): If the single server goes down, the entire website goes down.
-- Downtime when maintenance needed: If we need to deploy new code or the web server needs to be restarted, the website will be unavailable during that time.
-- Cannot scale if too much incoming traffic: If the website receives more traffic than the server can handle, it will become slow or unresponsive. This setup does not have a way to easily add more resources to handle increased load.
+- ***SPOF (Single Point of Failure)***: If the single server goes down, the entire website goes down.
+- ***Downtime when maintenance needed***: If we need to deploy new code or the web server needs to be restarted, the website will be unavailable during that time.
+- ***Cannot scale if too much incoming traffic***: If the website receives more traffic than the server can handle, it will become slow or unresponsive. This setup does not have a way to easily add more resources to handle increased load.
